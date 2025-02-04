@@ -1,0 +1,16 @@
+Student 1,Student 2,Compatibility Score
+Student_1,Student_2,0.7049671415301123
+Student_1,Student_3,0.7986173569882882
+Student_1,Student_4,0.6564768853810069
+Student_1,Student_5,0.7152302985640803
+Student_1,Student_6,0.34765846625276664
+Student_2,Student_3,0.4976586304305082
+Student_2,Student_4,0.5657921281550738
+Student_2,Student_5,0.4076743472915291
+Student_2,Student_6,0.6453052561406505
+Student_3,Student_4,0.45542560043585967
+Student_3,Student_5,0.8953658230718754
+Student_3,Student_6,0.34534270246429744
+Student_4,Student_5,0.5524196227156604
+Student_4,Student_6,0.680867197553422
+Student_5,Student_6,0.4327508216748696
