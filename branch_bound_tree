@@ -1,0 +1,42 @@
+// Branch and Bound Tree for 6 Students
+digraph {
+	root [label="Start
+{A, B, C, D, E, F}
+Pairs: []"]
+	node1 [label="A–B
+Remaining: {C, D, E, F}
+Pairs: [A–B]"]
+	root -> node1 [label="A–B"]
+	node1a [label="C–D
+Remaining: {E, F}
+Pairs: [A–B, C–D]"]
+	node1 -> node1a [label="C–D"]
+	node1a1 [label="E–F
+Complete: [A–B, C–D, E–F]"]
+	node1a -> node1a1 [label="E–F"]
+	node1b [label="C–E
+Remaining: {D, F}
+Pairs: [A–B, C–E]"]
+	node1 -> node1b [label="C–E"]
+	node1b1 [label="D–F
+Complete: [A–B, C–E, D–F]"]
+	node1b -> node1b1 [label="D–F"]
+	node1c [label="C–F
+Remaining: {D, E}
+Pairs: [A–B, C–F]"]
+	node1 -> node1c [label="C–F"]
+	node1c1 [label="D–E
+Complete: [A–B, C–F, D–E]"]
+	node1c -> node1c1 [label="D–E"]
+	node2 [label="A–C
+Remaining: {B, D, E, F}
+Pairs: [A–C]"]
+	root -> node2 [label="A–C"]
+	node2a [label="B–D
+Remaining: {E, F}
+Pairs: [A–C, B–D]"]
+	node2 -> node2a [label="B–D"]
+	node2a1 [label="E–F
+Complete: [A–C, B–D, E–F]"]
+	node2a -> node2a1 [label="E–F"]
+}
